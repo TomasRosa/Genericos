@@ -47,7 +47,7 @@ public class Main
                 System.out.println("Pos 2: ");
                 int pos2 = scan.nextInt();
 
-                listaInteger.intercambiarElementos(pos1,pos2);
+                listaInteger.intercambiarElementos(pos1,pos2); ///ESTE CREO QUE LO HICE MAL PREGUNTAR
 
                 System.out.println("Lista luego de haber intercambiado elementos: ");
                 listaInteger.mostrarLista();

@@ -37,12 +37,12 @@ public class listaGenerica <T>
             throw new RuntimeException("Error.");
         }
     }
-    public void intercambiarElementos(int pos1, int pos2)
+    public void intercambiarElementos(int pos1, int pos2) ///Preguntar...
     {
         ///Si las posiciones son menores a 0 o mayores a el tamaño de la lista tira error.
         if(pos1 < 0 || pos1 >= this.listaGenericos.size() || pos2 < 0 || pos2 >= this.listaGenericos.size())
         {
-            throw new RuntimeException("ERRORRRRRRRRRRRR PELOTUDO");
+            throw new RuntimeException("ERRORRRRRRRRRRRR");
         }
         ///Si no, intercambia los elementos, guarda el elemento 1 en aux para no perderlo ya que va a ser sobreescrito.
         ///Setea el elemento de la posicion 2 en la posicion 1, sobreescribiendo el valor que habia en la posicion uno, por eso anteriormente fue guardado en aux.

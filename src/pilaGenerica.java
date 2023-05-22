@@ -1,8 +1,7 @@
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Stack;
 
-public class pilaGenerica<T extends Number>
+public class pilaGenerica<T extends Number> ///Preguntar si esta es la restriccion.
 {
     private Stack<T> pilaGenericaNumber;
 
