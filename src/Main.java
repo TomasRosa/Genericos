@@ -172,7 +172,7 @@ public class Main
             }
             case 5:
             {
-                ///Punto 8.
+                ///Punto 8. PREGUNTARLO
                 PersonaProbarComparable p1 = new PersonaProbarComparable("Tomas",18);
                 PersonaProbarComparable p2 = new PersonaProbarComparable ("Floky",28);
                 PersonaProbarComparable probar = new PersonaProbarComparable<>();
@@ -197,6 +197,13 @@ public class Main
 
                 p2.imprimirElementos(arrayListInt);
                  */
+                break;
+            }
+            case 6:
+            {
+                Contenedor conte = new Contenedor<>();
+
+                conte.agregarElemento();
             }
 
         }
