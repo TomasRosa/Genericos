@@ -34,7 +34,7 @@ public class pilaGenerica<T extends Number> ///Preguntar si esta es la restricci
             System.out.println(this.pilaGenericaNumber.get(i));
         }
     }
-    public <T extends Comparable<T>> void imprimirLista (List<T> listaComparable)///Preguntar xq imprime si o si. ESTA MAL.
+    public <T extends Comparable<T>> void imprimirLista (List<T> listaComparable)
     {
         for(T elemento: listaComparable)
         {

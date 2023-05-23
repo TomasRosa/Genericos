@@ -54,4 +54,10 @@ public class listaGenerica <T>
             this.listaGenericos.set(pos2,aux);
         }
     }
+    public void intercambiarElementos (T elemento1, T elemento2)
+    {
+        T aux = elemento1;
+        elemento1 = elemento2;
+        elemento2 = aux;
+    }
 }
