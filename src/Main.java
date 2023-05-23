@@ -11,6 +11,7 @@ public class Main
 
         switch (opcion) {
             case 1: {
+                ///Punto 1
                 listaGenerica<String> listaString = new listaGenerica<>();
 
                 listaString.agregarElementos("Hola");
@@ -167,8 +168,37 @@ public class Main
                 par1.mostrarPar();
                 System.out.println("Par 2: ");
                 par2.mostrarPar();
-
+                break;
             }
+            case 5:
+            {
+                ///Punto 8.
+                PersonaProbarComparable p1 = new PersonaProbarComparable("Tomas",18);
+                PersonaProbarComparable p2 = new PersonaProbarComparable ("Floky",28);
+                PersonaProbarComparable probar = new PersonaProbarComparable<>();
+
+                ArrayList<PersonaProbarComparable> arrayListp8 = new ArrayList<>();
+
+                arrayListp8.add(p1);
+                arrayListp8.add(p2);
+
+                System.out.println("Array de personas (SuperClase de Empleado)");
+
+                probar.imprimirElementos(arrayListp8);
+
+
+                /*
+                ArrayList<Integer> arrayListInt = new ArrayList<>();
+
+                arrayListInt.add(18);
+                arrayListInt.add(20);
+
+                System.out.println("Array de int (Tendria que tirar error. )");
+
+                p2.imprimirElementos(arrayListInt);
+                 */
+            }
+
         }
 
     }
